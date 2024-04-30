@@ -1,0 +1,48 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.img
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(header.jpg);
+    background-size: cover;
+    
+}
+.img .text
+{
+    height: 500px;
+    width: 68%;
+    border: 1px solid white;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.button
+{
+    
+}
+.btn1
+{
+    padding: 15px 60px;
+    background-color: skyblue;
+  position: absolute;
+    margin-left: 330px;
+    color: white;
+    border: 0px;
+}
+.button2
+{
+    
+}
+.btn2
+{
+     padding: 15px 60px;
+    background-color: skyblue;
+  position: absolute;
+    margin-left: 510px;
+    color: white;
+    border: 0px;
+}

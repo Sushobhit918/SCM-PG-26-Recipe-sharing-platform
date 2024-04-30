@@ -1,0 +1,343 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.head
+{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+}
+.head .logo
+{
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+
+.head ul
+{
+    float: right;
+    margin-right: 40px;
+margin-top: 20px;   
+}
+
+.head ul li
+{
+    display: inline-block;
+}
+.head ul li a
+{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 22px;
+}
+.head ul li a:hover
+{
+    color: coral;
+}
+.header
+{
+    height:100vh;
+    width: 100%;
+    background-image:url(img.jpg);
+    background-size:cover;
+}
+.text
+{
+ position: absolute;
+    margin-top: 70px;
+    margin-left: 100px;
+ 
+    height: 500px;
+    width: 500px;
+}
+.text h1
+{
+    font-size: 60px;
+    color: white;
+}
+.text h2
+{
+    font-size: 40px;
+    color: white;
+}
+.text p
+{
+    font-size: 20px;
+    color: white;
+}
+.button .btn
+{
+     color: white;
+    background-color:black;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 20px;
+}
+.button .btn:hover
+{
+    background-color: coral;
+}
+.box
+{
+    height: 30%;
+    width: 80%;
+    margin: auto;
+}
+.line
+{
+    height: 8px;
+    width: 120px;
+    background-color:black;
+    margin: auto;
+}
+.line .on
+{
+    height: 1.8px;
+    width: 119px;
+    background-color: coral;
+    position: absolute;
+    margin-top: 3px;
+}
+.box h1
+{
+    font-size: 50px;
+    color: black; 
+    text-align: center;
+  
+    
+}
+.box1
+{
+    height: 430px;
+    width: 73%;
+    margin: auto;
+   
+}
+.box1 .left
+{
+    height: 100%;
+    width: 32.3%;
+    float: left;
+    border: 2px solid brown;
+    text-align: center;
+
+}
+.box1 .mid
+{
+    height: 429px;
+    width: 28%;
+    position: absolute;
+    margin-left: 380px;
+}
+.box1 .right
+{
+    height: 100%;
+    width: 31.3%;
+    float: right;
+    text-align: center;
+    border: 2px solid brown;
+}
+.box2
+{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+}
+.box2 .leftt
+{
+    height: 100%;
+    width: 50%;
+ 
+    float: left;
+    
+}
+.outer
+{
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    
+}
+.slide
+{
+    position: relative;
+    width:2000px;
+    animation-name: slidee;
+    animation-duration: 10s;
+   
+    animation-iteration-count: infinite;
+}
+
+.slide img
+{
+    
+    float: left;
+    
+}
+
+@keyframes slidee
+{
+    
+    0%
+    {
+        left:0px;
+    }
+    20%
+    {
+        left:0px;
+    }
+    25%
+    {
+        left:-500px;
+    }
+    45%
+    {
+        left:-500px;
+    }
+    50%
+    {
+        left:-1000px;
+    }
+    70%
+    {
+        left:-1000px;
+    }
+    75%
+    {
+        left:-1500px;
+    }
+    95%
+    {
+        left:-1500px;
+    }
+    100%
+    {
+        left:-2000px;
+    }
+}
+.box2 .rightt
+{
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+.boxx
+{
+    height: 30%;
+    width: 80%;
+    text-align: center;
+    
+    margin: auto;
+}
+.line1
+{
+    height: 8px;
+    width: 120px;
+    background-color:black;
+    margin: auto;
+}
+.line1 .on1
+{
+    height: 1.8px;
+    width: 119px;
+    background-color: coral;
+    position: absolute;
+    margin-top: 3px;
+}
+.imgsbox
+{
+    height: 50%;
+    width: 100%;
+    
+}
+.imgsbox .frst
+{
+    height: 100%;
+    width: 34%;
+    float: left;  
+}
+.imgsbox .scnd
+{
+    height: 100%;
+    width: 33%;
+    float: right;
+ 
+}
+.imgsbox .thrd
+{
+    height: 100%;
+    width: 33%;
+    margin-left: 517.5px;
+
+}
+.imgsbox1
+{
+    height: 40%;
+    width: 100%;
+
+}
+.imgsbox1 .frstt
+{
+    height: 100%;
+    width: 34%;
+    float: left;
+  
+}
+.imgsbox1 .scndd
+{
+    height: 100%;
+    width: 33%;
+    float: right;
+    
+}
+.imgsbox1 .thrdd
+{
+    height: 100%;
+    width: 33%;
+    margin-left: 517.5px;
+   
+}
+.boxx2
+{
+    height: 35%;
+    width: 80%;
+    color: brown;
+    margin: auto;
+    border: 2px solid black;
+    padding-left: 20px;
+    
+}
+.boxx2 p
+{
+    color: brown;
+    font-size: 14px;
+}
+
+.footer
+{
+    height: 40%;
+    width: 100%;
+    background-color:rosybrown;
+}
+.footer .right
+{
+  
+    height: 20%;
+    width: 20%;
+  position: absolute;  
+margin-left: 450px;
+}
+.footer .left
+{
+    height: 20%;
+    width: 20%;
+    position: absolute;
+   
+    margin-left: 770px;
+}

@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="contactus.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    <body>
+        <div class="header">
+        <div class="box">
+    
+            <div class="boxline">
+            
+            </div>
+            <div class="text">
+                <h1 style="font-family:sans-serif;font-size: 65px;padding-left: 30px">Contact Us</h1>
+                <p style="font-size: 30px;font-family: monospace;padding-left: 32px">We would love to hear from you</p>
+            </div>
+           
+            </div>
+        </div> <br><br><br><br>
+        <div class="main">
+        <div class="left">
+            <h1 style="text-align: center;font-size: 50px;font-family: monospace">Send us a message</h1>
+            <br>
+            <input type="text" placeholder="name" id="name" style="font-size: 12px;height: 45px;width: 105px;padding-left: 30px;margin-left: 180px">
+            <input type="text" placeholder="message" id="message" style="font-size: 12px;height:45px;width: 105px;padding-left: 30px;margin-left:20px">
+            
+            <br><br>
+            <div>
+            <center>
+            <button onclick="myfunction()">
+                submit
+            </button>
+            </center>
+            </div><br>
+            <h1 style="font-size: 40px;padding-left: 70px;font-family: monospace">Contact our socials </h1>
+            <br>
+            <a href="https://instagram.com/exotic.suneha?igshid=OGQ5ZDc2ODk2ZA==">
+                <i class='fa fa-instagram' style='font-size:34px;margin-left:150px;color: black'></i></a>
+            <a href="snehapassi3@gmail.com">
+                <i class='fa  fa-envelope-o' style="font-size:34px;margin-left: 90px;color: black"></i></a>
+            <a href="+91628387243">
+                <i class="fa fa-phone" style='font-size:34px;margin-left:90px;color: black'></i></a>
+            </div>
+            <div class="right"></div>
+        </div>
+        <script>
+            function myfunction(){
+            alert(" your message"+" is submitted")
+            document.getElementById(message).clear();
+            document.getElementById(name).clear();
+            }
+        </script>
+    </body>
+</html>

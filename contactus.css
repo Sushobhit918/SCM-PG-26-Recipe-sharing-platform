@@ -1,0 +1,71 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,63,0.8380602240896359) 35%, rgba(8,132,87,1) 43%, rgba(2,195,220,1) 88%, rgba(0,212,255,1) 100%);
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.header
+{
+    height: 50%;
+    width: 100%;
+    background-image: url(day1.jpeg);
+    background-size: cover;
+}
+.box
+{
+    height: 27%;
+    width: 39%;
+    background-color: white;
+    position: absolute;
+    margin-left: 920px;
+    margin-top: 210px;
+    border: 1px solid rosybrown;
+    
+}
+.boxline
+{
+    height: 100%;
+    width: 3px;
+    background-color: rosybrown;
+    position: absolute;
+}
+.text
+{
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    margin-top: 30px;
+   
+}
+.main
+{
+    height: 39.9%;
+    width: 78%;
+    margin: auto;
+    
+}
+.main .left
+{
+    height: 99.0%;
+    width: 50%;
+    background-color: white;
+     border: 1px solid  black;
+     box-shadow: 99% 50% 5px lightblue;
+    float: left;
+}
+.name
+{   
+    height: 30%;
+    width: 30%;
+}
+.main .right
+{
+    height: 100%;
+    width: 49.8%;
+    background-image: url(headerrr.jpeg);
+    background-size: cover;
+    float: right;
+}
