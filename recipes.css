@@ -5,7 +5,7 @@
 }
 .heuy
 {
-    height: 100%;
+    height: 99.9%;
     width: 100%;
     background-image: url(recipeee.jpeg);
     background-size: cover;
@@ -21,7 +21,7 @@
 
 .burfi 
 {
-    height: 500px;
+    height: 499.9px;
     width: 500px;
     background-image: url(Besan%20Burfi.jpeg);
     background-size: cover;
@@ -30,7 +30,7 @@
 }
 .bhelpuri
 {
-    height: 500px;
+    height: 499.9px;
     width: 500px;
     background-image: url(bhelpuri.jpeg);
     background-size: cover;
@@ -39,7 +39,7 @@
 }
 .cake
 {
-    height: 500px;
+    height: 499.9px;
     width: 500px;
     background-image: url(cake.jpeg);
     background-size: cover;
@@ -48,7 +48,7 @@
 }
 .golgappa
 {
-    height: 500px;
+    height:499.9px;
     width: 500px;
     background-image: url(golgappa.jpeg);
     background-size: cover;
@@ -57,7 +57,7 @@
 }
 .jalebi
 {
-    height: 550px;
+    height: 549.9px;
     width: 500px;
     background-image: url(jalebi.jpeg);
     background-size: cover;
