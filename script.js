@@ -5,7 +5,7 @@ function login() {
     if (username === 'SHIVEK' && password === '********') {
         alert('Login successful!');
     } else {
-        alert('Invalid username or password. Please try again.');
-        document.getElementById("drop").innerHTML = 'Invalid username or password';
+        alert('Invalid username or password. please try again.');
+        document.getElementById("drop").innerHTML = 'Invalid Username Or Password';
     }
 }
